@@ -1,0 +1,20 @@
+.search {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  width: 75%;
+  color: rgba(241, 171, 134, 0.7);
+}
+.search:focus {
+  outline: none;
+}
+.search_div {
+  display: flex;
+
+  width: 15%;
+  margin: 0 0 0 60px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #041f1e;
+  border: 3px solid rgba(241, 171, 134, 0.7);
+}

@@ -1,0 +1,14 @@
+.items {
+  display: flex;
+  gap: 10px;
+
+  background-color: rgba(241, 171, 134, 0.7);
+  padding: 5px;
+}
+.items img {
+  border: solid black 2px;
+  border-radius: 5px;
+}
+.items img:hover {
+  opacity: 0.7;
+}

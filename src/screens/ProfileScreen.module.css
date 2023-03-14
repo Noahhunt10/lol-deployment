@@ -1,0 +1,19 @@
+.username {
+  font-size: 50px;
+  color: white;
+  text-shadow: -1px 1px 2px #000, 1px 1px 2px #000000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.username_div {
+  display: flex;
+  justify-content: center;
+}
+.builds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+  gap: 50px;
+}

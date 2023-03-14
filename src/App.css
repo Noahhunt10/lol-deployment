@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0px;
+}
+.champ-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.champion-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.champion-card img {
+}
+.champion-card h1 {
+  font-size: 2.5vh;
+}
+.champion-card h3 {
+  font-size: 1.5vh;
+}
+/* background-image: linear-gradient(to right, red , yellow); */
+body {
+  margin-top: 100px;
+  background-color: rgb(255, 216, 196);
+  background-image: radial-gradient(rgb(255, 216, 196), #041f1e);
+  min-height: 90vh;
+}
+.MuiAutocomplete-hasPopupIcon.css-6ffsbr-MuiAutocomplete-root
+  .MuiOutlinedInput-root,
+.MuiAutocomplete-hasClearIcon.css-6ffsbr-MuiAutocomplete-root
+  .MuiOutlinedInput-root {
+  padding-right: 39px;
+  border-radius: 5px;
+}
